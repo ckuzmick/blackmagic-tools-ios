@@ -14,6 +14,9 @@
 		43D299F62B3B88EC009BA04D /* Blackmagic_Tools_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D299F52B3B88EC009BA04D /* Blackmagic_Tools_IOSTests.swift */; };
 		43D29A002B3B88EC009BA04D /* Blackmagic_Tools_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D299FF2B3B88EC009BA04D /* Blackmagic_Tools_IOSUITests.swift */; };
 		43D29A022B3B88EC009BA04D /* Blackmagic_Tools_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D29A012B3B88EC009BA04D /* Blackmagic_Tools_IOSUITestsLaunchTests.swift */; };
+		43D29A132B3B8E15009BA04D /* StillCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D29A122B3B8E15009BA04D /* StillCaptureView.swift */; };
+		43D29A152B3B8E32009BA04D /* GifCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D29A142B3B8E32009BA04D /* GifCaptureView.swift */; };
+		43D29A172B3B8E49009BA04D /* VideoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D29A162B3B8E49009BA04D /* VideoCaptureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		43D299FB2B3B88EC009BA04D /* Blackmagic Tools IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blackmagic Tools IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D299FF2B3B88EC009BA04D /* Blackmagic_Tools_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blackmagic_Tools_IOSUITests.swift; sourceTree = "<group>"; };
 		43D29A012B3B88EC009BA04D /* Blackmagic_Tools_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blackmagic_Tools_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43D29A122B3B8E15009BA04D /* StillCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillCaptureView.swift; sourceTree = "<group>"; };
+		43D29A142B3B8E32009BA04D /* GifCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCaptureView.swift; sourceTree = "<group>"; };
+		43D29A162B3B8E49009BA04D /* VideoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,12 @@
 		43D299E32B3B88EA009BA04D /* Blackmagic Tools IOS */ = {
 			isa = PBXGroup;
 			children = (
+				43D29A0F2B3B89DD009BA04D /* SubViews */,
+				43D29A0E2B3B89D3009BA04D /* Scripts */,
+				43D299EA2B3B88EC009BA04D /* Preview Content */,
 				43D299E42B3B88EA009BA04D /* Blackmagic_Tools_IOSApp.swift */,
 				43D299E62B3B88EA009BA04D /* ContentView.swift */,
 				43D299E82B3B88EC009BA04D /* Assets.xcassets */,
-				43D299EA2B3B88EC009BA04D /* Preview Content */,
 			);
 			path = "Blackmagic Tools IOS";
 			sourceTree = "<group>";
@@ -125,6 +133,23 @@
 				43D29A012B3B88EC009BA04D /* Blackmagic_Tools_IOSUITestsLaunchTests.swift */,
 			);
 			path = "Blackmagic Tools IOSUITests";
+			sourceTree = "<group>";
+		};
+		43D29A0E2B3B89D3009BA04D /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		43D29A0F2B3B89DD009BA04D /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				43D29A122B3B8E15009BA04D /* StillCaptureView.swift */,
+				43D29A142B3B8E32009BA04D /* GifCaptureView.swift */,
+				43D29A162B3B8E49009BA04D /* VideoCaptureView.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D29A172B3B8E49009BA04D /* VideoCaptureView.swift in Sources */,
+				43D29A152B3B8E32009BA04D /* GifCaptureView.swift in Sources */,
+				43D29A132B3B8E15009BA04D /* StillCaptureView.swift in Sources */,
 				43D299E72B3B88EA009BA04D /* ContentView.swift in Sources */,
 				43D299E52B3B88EA009BA04D /* Blackmagic_Tools_IOSApp.swift in Sources */,
 			);
